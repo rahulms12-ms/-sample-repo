@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management System</title>
+    <link rel="stylesheet" href="style2.css">
+<body>
+    <div class="container">
+        <h1>Hotel Management System</h1>
+
+        <form id="bookingForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="Adhadar card number">Adhadarcard NO:</label>
+            <input type="text" id="Adhadar card" required>
+
+            <label for="Phone">Phone number</label>
+            <input type="text" name="country code" value="+91" size="10">
+
+            <label for="City">City</label>
+            <input type="text" name="City" id="City">
+            
+            <label for="roomType">Room Type:</label>
+            <select id="roomType" required>
+                <option value="Single">Single Room</option>
+                <option value="Double">Double Room</option>
+                <option value="Suite">Suite</option>
+            </select>
+
+            
+            <button type="submit">Book Room</button></a> 
+        </form>
+
+        <div id="bookingDetails" class="booking-details">
+            <h2>Booking Details</h2>
+            <p id="bookingMessage">No booking yet.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
